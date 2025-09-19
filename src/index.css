@@ -8,49 +8,49 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Voltalia Brand Colors */
-    --background: 220 20% 97%;
-    --foreground: 220 40% 15%;
+    /* Voltalia Dark Theme - matching the login screens */
+    --background: 217 32% 12%;
+    --foreground: 210 40% 98%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 220 40% 15%;
+    --card: 217 32% 15%;
+    --card-foreground: 210 40% 98%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 220 40% 15%;
+    --popover: 217 32% 15%;
+    --popover-foreground: 210 40% 98%;
 
-    --primary: 197 85% 45%; /* Voltalia Teal */
+    --primary: 190 85% 45%; /* Voltalia Teal */
     --primary-foreground: 0 0% 98%;
 
-    --secondary: 220 15% 85%;
-    --secondary-foreground: 220 40% 15%;
+    --secondary: 217 32% 20%;
+    --secondary-foreground: 210 40% 98%;
 
-    --muted: 220 15% 85%;
-    --muted-foreground: 220 20% 50%;
+    --muted: 217 32% 18%;
+    --muted-foreground: 215 20% 65%;
 
-    --accent: 197 85% 45%;
+    --accent: 190 85% 45%;
     --accent-foreground: 0 0% 98%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 220 15% 85%;
-    --input: 220 15% 90%;
-    --ring: 197 85% 45%;
+    --border: 217 32% 25%;
+    --input: 217 32% 18%;
+    --ring: 190 85% 45%;
 
-    /* Energy System Colors */
-    --energy-blue: 215 85% 55%;
-    --energy-green: 142 75% 45%;
-    --energy-orange: 25 95% 55%;
-    --energy-warning: 45 95% 55%;
+    --radius: 0.75rem;
 
+    /* Voltalia Brand Colors */
+    --voltalia-teal: 190 85% 45%;
+    --voltalia-blue: 217 32% 12%;
+    --voltalia-dark: 220 40% 8%;
+    
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(197 85% 45%), hsl(197 85% 35%));
-    --gradient-energy: linear-gradient(135deg, hsl(215 85% 55%), hsl(197 85% 45%));
-    --gradient-hero: linear-gradient(135deg, hsl(220 40% 8%), hsl(220 40% 15%));
-
+    --gradient-voltalia: linear-gradient(135deg, hsl(217 32% 8%), hsl(217 32% 15%));
+    --gradient-button: linear-gradient(135deg, hsl(190 85% 45%), hsl(190 85% 40%));
+    
     /* Shadows */
-    --shadow-primary: 0 4px 20px hsl(197 85% 45% / 0.25);
-    --shadow-card: 0 2px 8px hsl(220 20% 20% / 0.08);
+    --shadow-voltalia: 0 8px 32px hsl(217 32% 8% / 0.4);
+    --shadow-button: 0 4px 16px hsl(190 85% 45% / 0.3);
 
     --radius: 0.5rem;
 
@@ -72,34 +72,34 @@ All colors MUST be HSL.
   }
 
   .dark {
-    /* Voltalia Dark Theme */
-    --background: 220 40% 8%;
-    --foreground: 220 20% 90%;
+    /* Voltalia Light Theme - for the second image */
+    --background: 0 0% 100%;
+    --foreground: 220 40% 15%;
 
-    --card: 220 40% 10%;
-    --card-foreground: 220 20% 90%;
+    --card: 0 0% 100%;
+    --card-foreground: 220 40% 15%;
 
-    --popover: 220 40% 10%;
-    --popover-foreground: 220 20% 90%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 40% 15%;
 
-    --primary: 197 85% 50%;
-    --primary-foreground: 220 40% 8%;
+    --primary: 190 85% 45%;
+    --primary-foreground: 0 0% 98%;
 
-    --secondary: 220 30% 15%;
-    --secondary-foreground: 220 20% 90%;
+    --secondary: 220 15% 95%;
+    --secondary-foreground: 220 40% 15%;
 
-    --muted: 220 30% 15%;
-    --muted-foreground: 220 15% 65%;
+    --muted: 220 15% 95%;
+    --muted-foreground: 220 20% 50%;
 
-    --accent: 197 85% 50%;
-    --accent-foreground: 220 40% 8%;
+    --accent: 190 85% 45%;
+    --accent-foreground: 0 0% 98%;
 
-    --destructive: 0 84% 65%;
-    --destructive-foreground: 220 40% 8%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 220 30% 20%;
-    --input: 220 30% 15%;
-    --ring: 197 85% 50%;
+    --border: 220 15% 85%;
+    --input: 220 15% 98%;
+    --ring: 190 85% 45%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
